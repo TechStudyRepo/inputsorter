@@ -7,6 +7,8 @@ function myfunction(){
     const names = [x,y,z,p,q];
     let sorted_names = names.sort()
     document.getElementById("op").innerHTML = sorted_names;
+    let checkBoxState = document.getElementById("cbox")
+    console.log('State',checkBoxState)
 }
 
 function colorchange(){
